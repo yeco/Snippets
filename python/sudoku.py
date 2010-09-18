@@ -15,8 +15,6 @@
 ## And then run:
 ## 
 ## $ python sudoku.py mysudoku.txt
-
-
 import re
 import sys
 
