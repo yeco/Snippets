@@ -1,20 +1,23 @@
-## To test the code create a text file containing the grid. Example (mysudoku.txt):
-## 
-## 6 - -  - - -  - 8 3
-## - - 7  1 - -  - - 4
-## - - 9  - - 2  7 - -
-## 
-## - - -  5 - 9  - - -
-## 1 - -  3 4 8  - - 9
-## - - -  7 - 1  - - -
-## 
-## - - 5  9 - -  3 - -
-## 3 - -  - - 6  1 - -
-## 7 6 -  - - -  - - 8
-## 
-## And then run:
-## 
-## $ python sudoku.py mysudoku.txt
+"""
+To test the code create a text file containing the grid. Example (mysudoku.txt):
+
+6 - -  - - -  - 8 3
+- - 7  1 - -  - - 4
+- - 9  - - 2  7 - -
+
+- - -  5 - 9  - - -
+1 - -  3 4 8  - - 9
+- - -  7 - 1  - - -
+
+- - 5  9 - -  3 - -
+3 - -  - - 6  1 - -
+7 6 -  - - -  - - 8
+
+And then run:
+
+$ python sudoku.py mysudoku.txt
+"""
+
 import re
 import sys
 
