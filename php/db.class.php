@@ -1,5 +1,5 @@
 /*
-Daaaaatabase
+db.with.class.php
 
 Allows the use of multiple database types using one class
 */
