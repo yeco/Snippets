@@ -9,25 +9,25 @@ function resizeFrame() {
 
 function getID()
  {
-    var myTop;
+    var _t;
     if (window.frameElement) {
-        myTop = window.frameElement;
+        _t = window.frameElement;
     } else if (window.top) {
-        myTop = window.top;
-        var myURL = location.href;
-        var iFs = myTop.document.getElementsByTagName('iframe');
+        _t = window.top;
+        var _u = location.href;
+        var iFs = _t.document.getElementsByTagName('iframe');
         var x,
         i = iFs.length;
         while (i--) {
             x = iFs[i];
-            if (x.src && x.src == myURL) {
-                myTop = x;
+            if (x.src && x.src == _u) {
+                _t = x;
                 break;
             }
         }
     }
-    if (myTop) {
-        return myTop.id;
+    if (_t) {
+        return _t.id;
     } else {
         }
 }
