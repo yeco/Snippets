@@ -8,7 +8,7 @@ Usage:
 
 -------------------------------------------------
 
-- Will need a css class:
+- Will need a css rule:
 	.highlight { background-color: yellow }
 	
 **/
